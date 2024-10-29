@@ -1,3 +1,96 @@
+:root {
+--main-color: #212121;
+--secondary-color: #2196F3;
+--description-color: #757575;
+}
+
 body {
     font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.container.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.logo {
+    font-family: raleway;
+}
+.logo-link {
+    font-size: 26px;
+    line-height: 1.23;
+    color: black;
+}
+
+.logo-color {
+    color: var(--secondary-color);
+}
+
+.container.header {
+    display: flex;
+    align-items: center;
+    
+}
+.navigation {
+    margin-left: 93px;
+}
+
+.navigation-list {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation-item {
+    margin-right: 50px;
+}
+
+.navigation-item:last-child {
+    margin-right: 0;
+}
+
+.navigation-link {
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--secondary-color);
+}
+
+.contacts {
+    margin-left: 344px;
+}
+
+.contacts-list {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.contacts-item {
+    margin-right: 50px;
+}
+
+.contacts-link {
+    color: var(--main-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.17;
+    font-weight: 500;
 }
