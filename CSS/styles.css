@@ -40,6 +40,7 @@ img {
 
 button {
     margin: 0;
+    border: 0;
 }
 
 .container {
@@ -134,4 +135,40 @@ button {
 .contacts-link:hover,
 .contacts-link:focus {
     color: var(--secondary-color);
+}
+
+.hero-section {
+    background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.container.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-item {
+    color: white;
+    width: 696px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    width: 216px;
+    font-size: 16px;
+    line-height: 1.875;
+    font-weight: 700;
+    color: white;
+    background-color: var(--secondary-color);
+    letter-spacing: 0.06em;
+    padding: 10px 24px;
+    border-radius: 4px;
 }
