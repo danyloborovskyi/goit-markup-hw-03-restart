@@ -73,8 +73,6 @@ button {
     align-items: center;
     
 }
-.navigation {
-}
 
 .navigation-list {
     display: flex;
@@ -137,6 +135,11 @@ button {
     color: var(--secondary-color);
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .hero-section {
     background-color: #2F303A;
     padding-top: 200px;
@@ -171,4 +174,225 @@ button {
     letter-spacing: 0.06em;
     padding: 10px 24px;
     border-radius: 4px;
+}
+
+.section.our-benefits {
+    padding-top: 94px;
+    padding-bottom: 0;
+}
+
+.our-benefits-headline {
+    display: none;
+}
+
+.our-benefits-list {
+    display: flex;
+}
+
+.our-benefits-item {
+    font-size: 14px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+    color: var(--main-color);
+}
+
+.our-benefits-description {
+    color: var(--description-color);
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.what-do-we-do {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    margin-bottom: 50px;
+}
+
+.what-do-we-do-list {
+    display: flex;
+    justify-content: center;
+}
+
+.what-do-we-do-item:nth-child(2) {
+    margin: 0 30px;
+}
+
+.our-team {
+    background-color: #F5F4FA;
+}
+
+.our-team-headline {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--main-color);
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.our-team-list {
+    display: flex;
+}
+
+.our-team-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+    background-color: white;
+    padding-bottom: 30px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.14), 0 1px 3px rgba(0, 0, 0, 0.12);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.our-team-item:last-child {
+    margin-right: 0;
+}
+
+.our-team-employee {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.our-team-position {
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+
+footer {
+    background-color: #2F303A;
+    padding: 60px 0;
+}
+
+footer .logo-link {
+    color: white;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.contacts-item-footer {
+    margin-bottom: 9px;
+    color: white;
+}
+
+.contacts-item-footer:last-child {
+    margin-bottom: 0;
+    }
+
+.contacts-link-footer {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.contacts-link-footer.location {
+    color: white;
+}
+
+.contacts-link-footer:hover,
+.contacts-link-footer:focus {
+    color: var(--secondary-color);
+}
+
+.portfolio-headline {
+    display: none;
+}
+
+.portfolio-filter-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.portfolio-filter-item {
+    margin-right: 8px;
+}
+
+.portfolio-filter-item:last-child {
+    margin-right: 0;
+}
+
+.portfolio-filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    padding: 6px 25px;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    color: var(--main-color);
+}
+
+.portfolio-filter-button:hover,
+.portfolio-filter-button:focus {
+    background-color: var(--secondary-color);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08), 0 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.portfolio-item {
+    flex-basis: calc((100%-60px)/3);
+}
+
+.portfolio-info {
+    padding-top: 20px;
+    padding-bottom: 19px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-right: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.portfolio-project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 4px;
+    color: var(--main-color);
+    letter-spacing: 0.06em;
+}
+
+.portfolio-project-type {
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--description-color);
+    letter-spacing: 0.03em;
+}
+
+.test-list {
+    display: flex;
+}
+
+.test-item {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-color: var(--main-color);
+    border: 1px black;
 }
